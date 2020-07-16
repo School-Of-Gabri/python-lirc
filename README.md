@@ -52,7 +52,8 @@ Building and Installing
 If you want to install manually then you may also need to install
 cython and some dev libraries:
 
-    sudo apt install cython gcc liblircclient-dev python{,3}-{dev,setuptools}
+    sudo apt-get update && sudo apt-get install -y cython{,3} gcc liblircclient-dev python{,3}-{dev,setuptools}
+    sudo apt update && sudo apt install -y cython{,3} gcc liblircclient-dev python{,3}-{dev,setuptools}
 
 Download, compile and install for Python 3 and 2.
 
